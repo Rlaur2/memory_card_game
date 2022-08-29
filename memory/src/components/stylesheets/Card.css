@@ -1,0 +1,16 @@
+img {
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    border: solid #000000 2px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px;
+    margin: 1rem;
+    transition: transform 75ms ease-in-out, box-shadow 75ms ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 8px 15px -4px;
+    cursor: pointer;
+}
